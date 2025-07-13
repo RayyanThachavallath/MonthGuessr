@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Month Geussr</title>
+    <link rel="icon" type="image/x-icon" href="files/title icon.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <audio id="success-audio" src="files/success.mp3"></audio>
+    <audio id="fail-audio" src="files/rejected.mp3"></audio>
+
+    <section>
+        <img src="files/logo main.png" alt="">
+        <div class="main-area">
+            <h3>Not sure what’s next? Enter a month and we’ll ‘predict’ it.</h3>
+            <input type="text" id="data" placeholder="Enter some month">
+            <button onclick=interpretation()>Submit</button>
+            <h4 id="result-text">Ready?</h4>
+        </div>
+    </section>
+
+    <footer>
+        <p>Build by Muhammed Rayyan</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
